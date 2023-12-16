@@ -50,7 +50,13 @@
   align-items: center;
   gap: 8px;
 }
-#list_count {
+.visible{
+    display: flex;
+    flex-direction: column;
+    color: #808080;
+    
+}
+.counter{
   color: white;
   width: 24px;
   height: 19px;
@@ -141,6 +147,7 @@
   flex-wrap: wrap;
   margin-bottom: 0px;
 }
+
 
 #todo_list_content > button {
   border: none;

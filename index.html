@@ -28,6 +28,7 @@
           placeholder="Enter Your To-do List Task"
           class="Todo_input"
           name="content"
+          required
         />
         <button id="form_button">
           Add<span class="material-symbols-outlined"> add_circle </span>
@@ -38,15 +39,15 @@
       <div class="info">
         <div class="todo_list">
           <h4 id="todo">To Do</h4>
-          <spain id="list_count"></spain>
+          <spain id="list_count" class="counter"></spain>
         </div>
-        <div>
-          <h4>High Priority</h4>
-          <spain></spain>
+        <div class="todo_list">
+          <h4 >High Priority</h4>
+          <spain id="high" class="counter"></spain>
         </div>
       </div>
       <div class="content_container">
-     <div id="empty_container">
+     <div id="empty_container" class="visible">
         <img src="./Clipboard (1).svg">
         <p>You have no To-do Items As of now</p>
      </div>
