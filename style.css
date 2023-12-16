@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+/* background-color:  #333333; */
+}
+.hero{
+    width: 100vw;
+    height:200px;
+    background: #0D0D0D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero_content{
+    display: flex;
+    color: aqua;
+    font-family: Inter;
+font-size: 35px;
+font-weight: 900;
+/* line-height: 48px; */
+/* letter-spacing: 0em; */
+gap: 10px;
+/* align-items: center; */
+justify-content: center;
+}
+.hero_content>p{
+    margin-bottom: 0px;
+}
+.Todo_input{
+    width:  644px;
+padding: 16px;
+border-radius: 8px;
+border: 1px;
+background: linear-gradient(0deg, #262626, #262626),
+linear-gradient(0deg, #0D0D0D, #0D0D0D);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+border: 1px solid #0D0D0D;
+color: beige;
+}
+.todo_list{
+display: flex;
+
+align-items: center;
+gap:8px;
+
+}
+#list_count{
+    color:white;
+    width: 24px;
+height: 19px;
+padding: 2px, 8px, 2px, 8px;
+border-radius: 999px;
+gap: 10px;
+background: #333333;
+
+}
+#Todo_input_form>button{
+    display: flex;
+    align-items: center;
+    width: 84px;
+height:  52px;
+padding: 16px;
+border-radius: 8px;
+gap: 8px;
+background: #1E6F9F;
+border: none;
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+#Todo_input_form{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    top: 75px;
+    background: none;
+   
+}
+.main_section{
+    padding-top: 120px;
+    width: 100vw;
+    height: 1000px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.info{
+    display: flex;
+  gap: 650px;
+    align-items:center ;
+    margin-bottom:20px ;
+}
+.info h4{
+    color: aqua;
+    margin-bottom: 0;
+}
+#todo_list_container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    height: 300px;
+    overflow-y: scroll;
+}
+#todo_list_container::-webkit-scrollbar{
+    display: none;
+}
+#todo_list_content{
+    width: 736px;
+    height:  72px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 12px;
+    display: flex;
+    margin-bottom: 15px;
+
+    background:rgb(93, 91, 91)
+}
+#todo_list_content>p{
+    width:700px;
+    height: 80px;
+    display: flex;
+  overflow: hidden;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #F2F2F2;
+word-wrap: break-word;
+
+   
+}
+
+#todo_list_content>button{
+    border:none ;
+    background: none;
+    color: #808080;
+    cursor: pointer;
+
+
+}
+.clip_bord{
+    display: none;
+}
+
