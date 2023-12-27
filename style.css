@@ -104,6 +104,8 @@
   gap: 650px;
   align-items: center;
   margin-bottom: 20px;
+  border-bottom:1px solid grey ;
+  padding-bottom:9px ;
 }
 .info h4 {
   color: aqua;
@@ -112,7 +114,7 @@
 #todo_list_container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   height: 300px;
   overflow-y: scroll;
 }
@@ -120,9 +122,12 @@
   display: none;
 }
 #todo_list_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 736px;
   height: 72px;
-  padding: 16px;
+  /* padding: 16px; */
   border-radius: 8px;
   border: 1px;
   gap: 12px;
@@ -131,8 +136,8 @@
 
   background: rgb(93, 91, 91);
 }
-#todo_list_content > p {
-  width: 700px;
+#todo_list_content >#gettext{
+  width: 500px;
   /* display: flex; */
   overflow: hidden;
   font-family: Inter;
@@ -143,9 +148,14 @@
   /* text-align: left; */
   display: flex;
   align-items: center;
-  color: #f2f2f2;
+  color:black;
   flex-wrap: wrap;
   margin-bottom: 0px;
+  background: none;
+  border:none;
+}
+#todo_list_content>input:focus{
+  outline: none;
 }
 
 
@@ -155,6 +165,12 @@
   color: #808080;
   cursor: pointer;
 }
+.work_done{
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+}
 .clip_bord {
   display: none;
 }
+
